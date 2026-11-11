@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- 데이터 (폴더 구조만 유지, 원본/대용량 내용물은 제외) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+# EDA 요약 표(용량 작은 CSV)는 보고서 근거자료로 버전관리에 포함
+!data/processed/eda/
+data/processed/eda/*
+!data/processed/eda/*.csv
+
+# --- 결과물 (폴더 구조만 유지) ---
+results/*
+!results/.gitkeep
+
+# --- 대용량 / 모델 / 캐시 파일 ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.h5
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.log
+
+# --- 환경변수 / 비밀 ---
+.env
