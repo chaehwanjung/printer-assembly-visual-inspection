@@ -22,6 +22,8 @@ NG 폴더가 곧 해당 사진의 가시적 결함을 뜻하는지는 확정되�
 
 ## 분석 흐름
 
+[가로형 워크플로우 · Lucidchart](https://lucid.app/lucidchart/c9b91030-6f79-4601-9cd7-1720de01f08a/edit)
+
 이미지 품질·폴더 구조 확인 → 기종×스텝 분리 → 정상 기반 이상탐지 비교 → 미검출 원인·정렬 점검 → ROI 존재 검사·문자 검사 → PASS/FAIL/REVIEW
 
 - 사전학습 MobileNetV3-Small을 고정 특징 추출기로 사용하고 patch-kNN·PaDiM·AutoEncoder를 비교했다. CNN 백본을 새로 학습한 프로젝트는 아니다.
