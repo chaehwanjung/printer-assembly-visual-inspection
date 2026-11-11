@@ -477,5 +477,3 @@ D: 검사 불가
 9. Bradski, G. (2000). The OpenCV Library. Dr. Dobb’s Journal of Software Tools.
 
 10. Stone, M. (1974). Cross-Validatory Choice and Assessment of Statistical Predictions. Journal of the Royal Statistical Society: Series B, 36(2), 111–133.
-
-재현 코드: https://github.com/junegogo0830/cannon_deeplearning
